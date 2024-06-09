@@ -1,18 +1,10 @@
-# Your project title
+# Title: Portfolio
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
-
-A simple overview of the use/purpose of the project.
+This repo contains and is used for my personal portfolio.
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
-
-You can add some bullet points if you'd like to:
-
-- List item 1
-- List item 2
-- List item 3
+This repo is an assignment from Noroff where we are making personal portfolio listing 3 projects we have been working on the 1st year.
 
 ## Built With
 
