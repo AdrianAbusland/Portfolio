@@ -1,0 +1,124 @@
+@import url(./css/header.css);
+@import url(./css/footer.css);
+
+:root{
+    --black: #0A0908;
+    --gunmetal: #22333B;
+    --almond: #EAE0D5;
+    --khaki: #C6AC8F;
+    --walnut-brown: #5E503F;
+}
+
+@font-face {
+    font-family: OpenDyslexic3-Regular;
+    src: url(./assets/OpenDyslexic3-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: OpenDyslexic3-Bold;
+    src: url(./assets/OpenDyslexic3-Bold.ttf);
+  }
+
+body{
+    margin: 0;
+    font-family: "OpenDyslexic3-Regular";
+    color: var(--black);
+    display: flex;
+    flex-flow: column;
+}
+
+main{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: var(--almond);
+}
+
+section h1{
+    text-align: center;
+    padding: 15px;
+    font-size: 35px;
+}
+
+.cards{
+    background-color: var(--khaki);
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    max-width: 1500px;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 15px 10px;
+    margin: 25px 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards h2{
+    flex-basis: 100%;
+    text-align: center;
+}
+
+
+.cards img{
+    width: 45%;
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+.cards p{
+    font-size: 22px;
+    background-color: var(--almond);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    min-height: 250px;
+    width: 50%;
+}
+
+.btnContainerCards{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.cards a{
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--walnut-brown);
+    color: var(--almond);
+    font-size: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+}
+
+.cards a:hover{
+    color: var(--black);
+}
+
+.contactContent{
+    width: 85vw;
+    min-height: 250px;
+}
+
+.contactContent ul{
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    font-size: 25px;
+    word-break: break-all;
+}
+
+@media screen and (max-width: 850px) {
+    .cards img{
+        width: 100%;
+    }
+
+    .cards p{
+        width: 100%;
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,16 @@
+footer{
+    background-color: var(--walnut-brown);
+    min-height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+footer a{
+    color: var(--khaki);
+}
+
+footer a:hover{
+    color: var(--almond);
+}
