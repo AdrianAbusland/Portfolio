@@ -4,7 +4,7 @@ This repo contains and is used for my personal portfolio.
 
 ## Description
 
-This repo is an assignment from Noroff where we are making personal portfolio listing 3 projects we have been working on the 1st year.
+This repo is an assignment from Noroff where we are making personal portfolio, listing 3 projects we have been working on the 1st year.
 
 ## Built With
 
